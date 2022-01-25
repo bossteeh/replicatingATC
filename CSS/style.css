@@ -1,0 +1,91 @@
+.firstsctn{
+    justify-content: space-between;
+    display: flex;
+}
+.linkitems{
+    list-style-type: none;
+    justify-content: space-evenly;
+    display: flex;
+    width: 700px;
+    color: grey;
+    font-weight: 600px;
+    font-family: poppins;
+    font-size: 14px;
+    font: bolder;
+
+}
+.contactbdr{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 30px;
+    padding-left: 60px;
+    padding-top: 5px;
+    width: 120px;
+    color: black;
+    margin-top: -10px;
+}
+.contactbdr:hover{
+    opacity: 70%;
+    cursor: pointer;
+    font-size: 14px;
+    color: grey;
+}
+li:hover{
+    color: rgb(158, 80, 211);
+    cursor: pointer;
+    font-size: large;
+    
+}
+.logo img{
+    width: 150px;
+    justify-content: left;
+    padding-left: 80px;
+
+}
+.logo img:hover{
+    opacity:60%;
+}
+.scndsctn{
+    justify-content: space-between;
+    display: flex;
+}
+.texts{
+    padding-left: 80px;
+    font-family: poppins;
+
+}
+h3{
+    font-size: 50px;
+}
+.woman img{
+    width: 700px;
+    justify-content: center;
+    padding-left: 50px;
+    margin-top: -50px;
+    animation: mover 1s infinite alternate;
+}
+span{
+    font-size:17px;
+    color: grey;
+    line-height: 1.5;
+    
+}
+.btn{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    border: none;
+    background-color:rgb(158, 80, 211);
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
